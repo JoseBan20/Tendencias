@@ -60,7 +60,7 @@ clienteApi.spider.scan(URL,null,null,null,null);//Robot que navega por la web y 
     }
 public static void waitMS(int millis) throws Exception{
         Thread.sleep(millis);//Metodo para intenrrupir una ejecucion
-//prueba
+
 }
 
 }
