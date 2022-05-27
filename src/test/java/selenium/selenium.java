@@ -21,7 +21,7 @@ public class selenium {
     private static final int ZAP_PROXYPORT = 8081;//Aqui se ponen el nombre y el numero de puerto del Zap
     private static final String URL= "https://www.instagram.com/";//Se pone la url de la pagina que deseemos escanear
     private static WebDriver driver;//Usamo el webdriver de conexion
-//viveverosd
+
     public static void main (String args[])throws Exception{
 
 ClientApi clienteApi = new ClientApi(ZAP_PROXYHOST,ZAP_PROXYPORT);//instancia  que permite hacer la conexion al zap
