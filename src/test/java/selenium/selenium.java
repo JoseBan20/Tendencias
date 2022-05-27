@@ -40,7 +40,7 @@ clienteApi.spider.scan(URL,null,null,null,null);//Robot que navega por la web y 
         chromeOptions.setCapability(CapabilityType.ACCEPT_SSL_CERTS,true);//para scanera cuando tiene certificados seguro e inseguros
         chromeOptions.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
 
-
+//Prueba
         clienteApi.pscan.enableAllScanners();//Habilitas todos los tipos de scanner
         clienteApi.ascan.scan(URL,"true","false",null,null,null);//Se pasa la url y se escanea
 
